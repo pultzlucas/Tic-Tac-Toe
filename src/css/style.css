@@ -21,6 +21,11 @@ h1
     animation-delay: 1s;
 }
 
+.display
+{
+    color: #fff;
+    font-size: 2rem;
+}
 
 .check_area
 {

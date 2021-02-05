@@ -15,7 +15,7 @@
     min-width: var(--game-dimension);
     position: absolute;
     left: 50%;
-    top: 45%;
+    top: 50%;
     transform: translate(-50%, -50%);
     background-color: #666;
 }
@@ -31,7 +31,7 @@
     position: absolute;
     padding: 10px 30px;
     transform: translate(-50%,-50%);
-    top: calc(45% + var(--game-dimension) - 180px);
+    top: calc(50% + var(--game-dimension) - 180px);
 }
 
 footer
