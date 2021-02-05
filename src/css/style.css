@@ -36,6 +36,17 @@ h1
     background-color: rgba(240, 240, 240);
 }
 
+.unclickable
+{
+    background-color: #aaa;
+    cursor: unset;
+}
+
+.unclickable:hover
+{
+    background-color: #aaa;
+}
+
 .circle, .x
 {
     background-repeat: no-repeat;
