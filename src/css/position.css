@@ -20,7 +20,7 @@
     background-color: #666;
 }
 
-.check_area
+.mark_area
 {
     width: calc(var(--game-dimension) / 3);
     height: calc(var(--game-dimension) / 3);

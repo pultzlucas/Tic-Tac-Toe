@@ -1,9 +1,8 @@
 function Player(symbol, id) {
-    this.id = id
+    this.name = `Player${id}`
+    this.score = 0
     this.symbol = symbol
 
-    this.check = function () {
-        console.log('check')
-    }
+    this.updateScore = () => this.score++
 }
 

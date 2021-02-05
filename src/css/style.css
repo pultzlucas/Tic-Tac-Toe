@@ -27,7 +27,7 @@ h1
     font-size: 2rem;
 }
 
-.check_area
+.mark_area
 {
     cursor: pointer;
     background-color: #fff;
@@ -36,7 +36,7 @@ h1
     transition: .5s;
 }
 
-.check_area:hover
+.mark_area:hover
 {
     background-color: rgba(240, 240, 240);
 }
