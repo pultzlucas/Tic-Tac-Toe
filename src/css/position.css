@@ -1,0 +1,74 @@
+:root
+{
+    --game-dimension: 500px;
+}
+
+.container
+{
+    position: relative;
+    text-align: center;
+    height: 100vh;
+}
+
+.game
+{
+    min-width: var(--game-dimension);
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    background-color: #666;
+}
+
+.check_area
+{
+    width: calc(var(--game-dimension) / 3);
+    height: calc(var(--game-dimension) / 3);
+}
+
+#btn_init
+{
+    position: absolute;
+    padding: 10px 30px;
+    transform: translate(-50%,-50%);
+    top: calc(45% + var(--game-dimension) - 180px);
+}
+
+footer
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: calc(50% + var(--game-dimension) - 120px);
+}
+
+
+@media (max-width: 700px) {
+    h1
+    {
+        display: none;
+    }
+}
+
+@media (max-height: 550px)
+{
+    body
+    {
+        background-color: red;
+    }
+
+    .game
+    {
+        top: 60%;
+    }
+
+    #btn_init
+    {
+        top: calc(45% + var(--game-dimension) - 120px);
+    }
+
+    footer
+    {
+        top: calc(50% + var(--game-dimension) - 100px);
+    }
+}

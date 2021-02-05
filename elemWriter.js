@@ -1,0 +1,1 @@
+require('elements.dom')('index', './src/scripts/elements.js')

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" href="./src/icons/tic-tac-toe.png" type="image/x-icon">
+    <!-- libraries -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/pultzlucas-wf/dist/main.css">
+    <script src="./node_modules/pultzlucas-wf/dist/pultz-lucas-wf.js"></script>
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./src/css/position.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Tic Tac Toe</h1>
+        </header>
+
+        <div class="game">
+            <div class="row">
+                <div class="col check_area"></div>
+                <div class="col check_area"></div>
+                <div class="col check_area"></div>
+            </div>
+            <div class="row">
+                <div class="col check_area circle"></div>
+                <div class="col check_area"></div>
+                <div class="col check_area"></div>
+            </div>
+            <div class="row">
+                <div class="col check_area"></div>
+                <div class="col check_area"></div>
+                <div class="col check_area"></div>
+            </div>
+        </div>
+
+        <button type="button" id="btn_init">Iniciar jogo</button>
+
+        <footer>
+                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/hirschwolf" title="hirschwolf">hirschwolf</a>, <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </footer>
+    </div>
+    <script src="./src/scripts/elements.js"></script>
+    <script src="./src/scripts/main.js"></script>
+</body>
+
+</html>

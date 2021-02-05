@@ -1,0 +1,78 @@
+@keyframes title {
+    0%, 100%{
+        font-size: 6rem;
+    }50%{
+        font-size: 6.2rem;
+        letter-spacing: 5px;
+    }
+}
+
+
+body
+{
+    background-color: rgb(36, 36, 36);
+}
+
+h1
+{
+    color: #fff;
+    font-size: 6rem;
+    animation: title infinite 5s reverse ease-out;
+    animation-delay: 1s;
+}
+
+
+.check_area
+{
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.check_area:hover
+{
+    background-color: rgba(240, 240, 240);
+}
+
+.circle, .x
+{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.circle
+{
+    background-image: url('../icons/Circle.png');
+}
+
+.x
+{
+    background-image: url('../icons/X.png');
+}
+
+#btn_init
+{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+#btn_init:hover
+{
+    transition: .3s;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+footer
+{
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.794);
+}
+
