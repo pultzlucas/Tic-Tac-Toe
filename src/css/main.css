@@ -1,0 +1,32 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.noArrows::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.popup
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hidden
+{
+    display: none;
+}
+
+.show
+{
+    display: block;
+}
+
+ul
+{
+    list-style: none;
+}
